@@ -64,19 +64,19 @@ h2 {
     position: absolute;
     text-align: center;
     width: 100%;
-    margin-top: 290px;
+    margin-top: 305px;
 }
 
 .p2 {
     position: absolute;
     text-align: center;
     width: 100%;
-    margin-top: 310px;
+    margin-top: 330px;
 }
 
 .header-btn {
     position: absolute;
-    margin-top: 360px;
+    margin-top: 370px;
     width: 100%;
     text-align: center;
     z-index: 2;
@@ -85,7 +85,7 @@ h2 {
 .btn {
     background: transparent;
     border: 1px solid rgb(255, 255, 255);
-    padding: 15px;
+    padding: 15px 25px;
     color: white;
     border-radius: 3px;
 }
