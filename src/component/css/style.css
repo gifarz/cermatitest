@@ -60,23 +60,27 @@ h2 {
     margin-top: 250px;
 }
 
+.header-p {
+    position: relative;
+}
+
 .p1 {
     position: absolute;
     text-align: center;
     width: 100%;
-    margin-top: 305px;
+    margin-top: 295px;
 }
 
 .p2 {
     position: absolute;
     text-align: center;
     width: 100%;
-    margin-top: 330px;
+    margin-top: 315px;
 }
 
 .header-btn {
     position: absolute;
-    margin-top: 370px;
+    margin-top: 360px;
     width: 100%;
     text-align: center;
     z-index: 2;
@@ -111,9 +115,13 @@ h2 {
     margin-top: 100px;
     color: #3d3d3d;
     display: inline-block;
-    width: 480px;
-    text-align: center;
+    width: 100%;
     margin-bottom: 50px;
+}
+
+.content-p1 {
+    text-align: center;
+    margin: auto;
 }
 
 .cards {
