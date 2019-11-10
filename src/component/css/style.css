@@ -114,13 +114,14 @@ h2 {
 }
 
 .content-h {
+    position: relative;
     margin-top: 40px;
     color: #3d3d3d;
 }
 
 .content-p {
     position: relative;
-    margin-top: 100px;
+    margin-top: 20px;
     color: #3d3d3d;
     width: 100%;
     margin-bottom: 50px;

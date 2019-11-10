@@ -13,8 +13,8 @@ function App() {
       <Cookie/>
       <div className="bg-app">
         <Content/>
+        <Footer/>
       </div>
-      <Footer/>
       {/* <Subscription/> */}
     </div>
   );

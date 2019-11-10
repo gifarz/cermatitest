@@ -10,7 +10,7 @@ const Cookie = () => (
             style={{ 
                 display: "grid",
                 gridTemplateRows: "auto 2fr auto",
-                gridTemplateColumns: "repeat(auto-fill, minmax(500px, 2fr))",
+                gridTemplateColumns: "repeat(auto-fill, minmax(480px, 2fr))",
                 gridGap: "10px",
                 background: "#f5f5f5",
                 color: "#000",
