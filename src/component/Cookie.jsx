@@ -12,7 +12,8 @@ const Cookie = () => (
                 gridGap: "10px",
                 background: "#f5f5f5",
                 color: "#000",
-                textAlign: "justify"
+                textAlign: "justify",
+                fontSize: "15px"
             }}
             buttonStyle={{
                 position: "relative",
