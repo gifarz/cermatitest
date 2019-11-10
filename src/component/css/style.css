@@ -1,4 +1,7 @@
-/* Layout styles -----------------------------------*/
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 @media (max-width: 480px) {
     .cards {
       column-count: 1;
@@ -115,8 +118,9 @@ h2 {
 
 .content-h {
     position: relative;
-    margin-top: 40px;
+    margin-top: auto;
     color: #3d3d3d;
+    padding-top: 40px;
 }
 
 .content-p {
