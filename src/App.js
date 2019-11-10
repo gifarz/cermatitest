@@ -12,8 +12,8 @@ function App() {
       <CookieConsent/>
       <div className="bg-app">
         <Content/>
-        <Footer/>
       </div>
+      <Footer/>
     </div>
   );
 }

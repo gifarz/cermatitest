@@ -1,16 +1,24 @@
 /* Layout styles -----------------------------------*/
-@media only screen and (max-width: 480px) {
+@media (max-width: 480px) {
     .cards {
       column-count: 1;
     }
 
 }
   
-@media only screen and (min-width: 1200px) {
+@media (min-width: 1200px) {
     .cards {
        column-count: 2;
     }
 }
+
+@media (min-width: 768px) {
+    .content-p {
+      display: grid;
+      grid-template-columns: 560px;
+      grid-template-rows: auto 1fr auto;
+    }
+  }
 
 .header {
     background: url('../img/background.jpg') no-repeat center / cover;
@@ -68,14 +76,14 @@ h2 {
     position: absolute;
     text-align: center;
     width: 100%;
-    margin-top: 295px;
+    margin-top: 305px;
 }
 
 .p2 {
     position: absolute;
     text-align: center;
     width: 100%;
-    margin-top: 315px;
+    margin-top: 325px;
 }
 
 .header-btn {
@@ -96,7 +104,7 @@ h2 {
 
 .btn:hover {
     background: white;
-    color: rgba(29, 29, 255, 0.733);
+    color: #004a75;
 }
 
 .content {
@@ -114,9 +122,9 @@ h2 {
     position: relative;
     margin-top: 100px;
     color: #3d3d3d;
-    display: inline-block;
     width: 100%;
     margin-bottom: 50px;
+    justify-content: center;
 }
 
 .content-p1 {
