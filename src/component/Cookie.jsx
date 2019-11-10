@@ -8,25 +8,20 @@ const Cookie = () => (
             location="top"
             buttonText="Got it"
             style={{ 
-                display: "grid",
-                gridTemplateRows: "auto 1fr auto",
-                gridTemplateColumns: "repeat(auto-fill, minmax(480px, 1fr))",
-                maxWidth: "100%",
+                width: "100%",
                 gridGap: "10px",
                 background: "#f5f5f5",
                 color: "#000",
-                JustifyContent: "center"
+                textAlign: "justify"
             }}
             buttonStyle={{
-                gridColumn: "auto",
-                float: "right",
                 position: "relative",
                 background: "#007bc1", 
                 color: "#f5f5f5", 
                 fontSize: "15px", 
                 padding: "10px 10px", 
                 margin: "auto",
-                marginRight: "25px",
+                marginRight: "10px",
                 borderRadius: "5px"
             }}
             expires={150}
