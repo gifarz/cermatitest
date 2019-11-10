@@ -68,7 +68,7 @@ h1, h2, .p1, .p2 {
 .header h2 {
     position: absolute;
     text-align: center;
-    font-size: 21px;
+    font-size: 22px;
     width: 100%;
     margin-top: 245px;
 }
@@ -80,22 +80,22 @@ h1, h2, .p1, .p2 {
 .p1 {
     position: absolute;
     text-align: center;
-    font-size: 14px;
+    font-size: 15px;
     width: 100%;
-    margin-top: 305px;
+    margin-top: 290px;
 }
 
 .p2 {
     position: absolute;
     text-align: center;
-    font-size: 14px;
+    font-size: 15px;
     width: 100%;
-    margin-top: 330px;
+    margin-top: 315px;
 }
 
 .header-btn {
     position: absolute;
-    margin-top: 365px;
+    margin-top: 360px;
     width: 100%;
     text-align: center;
     z-index: 2;
