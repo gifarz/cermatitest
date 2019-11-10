@@ -9,12 +9,13 @@ const Cookie = () => (
             buttonText="Got it"
             style={{ 
                 display: "grid",
-                gridTemplateRows: "auto 2fr auto",
-                gridTemplateColumns: "repeat(auto-fill, minmax(480px, 2fr))",
+                gridTemplateRows: "auto 1fr auto",
+                gridTemplateColumns: "repeat(auto-fill, minmax(480px, 1fr))",
+                maxWidth: "100%",
                 gridGap: "10px",
                 background: "#f5f5f5",
                 color: "#000",
-                alignItems: "center"
+                JustifyContent: "center"
             }}
             buttonStyle={{
                 gridColumn: "auto",
