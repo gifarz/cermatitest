@@ -3,13 +3,13 @@ import Header from './component/Header';
 import Content from './component/Content';
 import './App.css';
 import Footer from './component/Footer';
-import CookieConsent from 'react-cookie-consent';
+import Cookie from './component/Cookie';
 
 function App() {
   return (
     <div>
       <Header/>
-      <CookieConsent/>
+      <Cookie/>
       <div className="bg-app">
         <Content/>
       </div>
