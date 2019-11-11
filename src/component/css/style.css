@@ -1,27 +1,15 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-}
-
-@media (max-width: 480px) {
-    .cards {
-      column-count: 1;
-    }
-
-}
-  
-@media (min-width: 1200px) {
-    .cards {
-       column-count: 2;
-    }
+    flex: 1;
 }
 
 @media (min-width: 768px) {
-    .content-p, .cookie-consent {
+    .content-p {
       display: grid;
       grid-template-columns: 560px;
       grid-template-rows: auto 1fr auto;
     }
-  }
+}
 
 .header {
     background: url('../img/background.jpg') no-repeat center / cover;
@@ -193,4 +181,51 @@ h1, h2, .p1, .p2 {
     padding-top: 30px;
     text-align: center;
     color: white;
+}
+
+.subscription {
+    z-index: 2;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.subs-bg {
+    display: flex;
+    position: fixed;
+    float: left;
+    max-width: 640px;
+    background-color: #007ac1e7;
+    bottom: 0px;
+    left: 0px;
+    box-sizing: border-box;
+}
+
+.subs-content {
+    width: 100%;
+    margin: 20px;
+}
+
+.subs-content-h, .subs-content-p {
+    margin-right: 3%;
+    color: white;
+    text-align: justify;
+}
+
+.subs-bottom {
+    width: 100%;
+}
+
+.subs-text {
+    width : 74%;
+    padding: 5px;
+}
+
+.subs-btn {
+    margin-left: 5px;
+    background: orange;
+    color: white;
+    border: 1px solid orange;
+    border-radius: 2px;
+    padding: 5px;
 }

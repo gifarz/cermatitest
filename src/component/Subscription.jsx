@@ -1,43 +1,25 @@
-import React from "react";
-import { createSubscription } from "create-subscription";
+import React from 'react';
 
-// Start with a simple component.
-function LoadingComponent({ loadingStatus }) {
-  if (loadingStatus === undefined) {
-    // Loading
-  } else if (loadingStatus === null) {
-    // Error
-  } else {
-    // Success
+class Subscription extends React.Component {
+  render() {
+    return (
+      <div className="subscription">
+        <div className="subs-bg">
+          <div className="subs-content">
+            <h3 className="subs-content-h">Get latest updates in web technologies</h3>
+            <p className="subs-content-p">I write articles related to web technologies, such as design trends, development
+            tools, UI/UX case studies and reviews, and more. Sign up to my newsletter to get
+            them all.</p>
+
+            <div className="subs-bottom">
+              <input type="text" placeholder="Email Addres" className="subs-text"/>
+              <button className="subs-btn">Count me in!</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    )
   }
-}
+} 
 
-// Wrap the function component with a subscriber HOC.
-// This HOC will manage subscriptions and pass values to the decorated component.
-// It will add and remove subscriptions in an async-safe way when props change.
-const PromiseSubscription = createSubscription({
-  getCurrentValue: promise => {
-    // There is no way to synchronously read a Promise's value,
-    // So this method should return undefined.
-    return undefined;
-  },
-  subscribe: (promise, callback) => {
-    promise.then(
-      // Success
-      value => callback(value),
-      // Failure
-      () => callback(null)
-    );
-
-    // There is no way to "unsubscribe" from a Promise.
-    // create-subscription will still prevent stale values from rendering.
-    return () => {};
-  }
-});
-
-// Your component can now be used as shown below.
-{/* <PromiseSubscription source={loadingPromise}>
-  {loadingStatus => <LoadingComponent loadingStatus={loadingStatus} />}
-</PromiseSubscription> */}
-
-export default PromiseSubscription;
+export default Subscription;
