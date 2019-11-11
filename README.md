@@ -1,4 +1,4 @@
-# Technical test of [Cermati.com](https://www.cermati.com).
+# Technical test of Frontend Developer in [Cermati.com](https://www.cermati.com).
 
 ## Link to the live website
 
